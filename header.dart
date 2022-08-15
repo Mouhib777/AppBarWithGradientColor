@@ -1,4 +1,4 @@
-import 'package:bil/constant/constants.dart';
+
 import 'package:flutter/material.dart';
 
 AppBar header(context) {
@@ -11,7 +11,7 @@ AppBar header(context) {
       centerTitle: true,
       actions: [
         IconButton(
-          icon: Image.asset('assets/images/bil_T.png'),
+          icon: Image.asset('assets/images/pngImage.png'),
           iconSize: 50,
           onPressed: () {},
         ),
@@ -23,7 +23,7 @@ AppBar header(context) {
                 bottomLeft: Radius.circular(20),
                 bottomRight: Radius.circular(20)),
             gradient: LinearGradient(
-                colors: [BIL_Color, Colors.black87],
+                colors: ['anotherColor', Colors.black87],
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft)),
       ));
